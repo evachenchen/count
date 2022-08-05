@@ -1,10 +1,7 @@
 import sys
 from streamlit import cli as stcli
 import streamlit as st
-import pythoncom
 import web_page
-
-pythoncom.CoInitialize()
 
 
 def main():
